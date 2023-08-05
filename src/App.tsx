@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import { Box } from '@mui/material';
@@ -9,6 +9,11 @@ import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 
 function App() {
+  const [appName,setAppName] = useState(process.env.REACT_APP_APP_NAME);
+
+  useEffect(()=>{
+    document.title = appName ? appName.toString() : ''
+  },[appName])
   return (
     <Box width="400px" sx={{ width: { 'xl': '1488px' } }} m='auto'>
       <Navbar />
