@@ -29,7 +29,6 @@ const SearchExercises = ({setExercises , bodyPart , setBodyPart}:{
 
 
     const handleSearch = async ()=>{
-        debugger
         if(search) {
             const exercisesResponse = await ExerciseService.getAllExercises();
             const exercisesData = exercisesResponse.data as IExerciseData[];
