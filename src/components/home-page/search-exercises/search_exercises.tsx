@@ -29,6 +29,7 @@ const SearchExercises = ({setExercises , bodyPart , setBodyPart}:{
 
 
     const handleSearch = async ()=>{
+        debugger
         if(search) {
             const exercisesResponse = await ExerciseService.getAllExercises();
             const exercisesData = exercisesResponse.data as IExerciseData[];
@@ -38,6 +39,7 @@ const SearchExercises = ({setExercises , bodyPart , setBodyPart}:{
                        || item.equipment.toLowerCase().includes(search)
                        || item.bodyPart.toLowerCase().includes(search),
               );    
+              setExercises(searchedExercises);
               setSearch('');
         }
     }
