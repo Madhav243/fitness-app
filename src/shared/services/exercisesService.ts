@@ -22,7 +22,7 @@ const getAllExercises = async () => {
   if(Array.isArray(allExercises) && allExercises.length) {
      return getAxiosResponseObj(allExercises)
   } else {
-    const response = await http.get<IExerciseData[]>("/exercises");
+    const response = await http.get<IExerciseData[]>("/exercises?limit=1500");
     allExercises = response.data as IExerciseData[];
     return getAxiosResponseObj(allExercises)
   }
