@@ -6,10 +6,13 @@ Describe the app's purpose and features here.
 ## Screenshots
 
 ### Home Page
-![Home Page](./path-to-screenshot/home-page.png)
+![Home Page](./public/ss/home-1.png)
+![Home Page](./public//ss//home-2.png)
 
 ### Exercise Page
-![Exercise Page](./path-to-screenshot/exercise-page.png)
+![Exercise Page](./public/ss/exercise-1.png)
+![Exercise Page](./public/ss/exercise-2.png)
+
 
 ## Deployed Link
 
