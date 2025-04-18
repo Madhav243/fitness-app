@@ -1,9 +1,25 @@
 
-## About the Project
+# Fitness App
 
-Describe the app's purpose and features here.
+The **Fitness App** is your ultimate companion for discovering exercises tailored to your fitness goals. Whether you're looking to target specific body parts or searching for exercises by name, this app has you covered. With a sleek and user-friendly interface, the app provides detailed exercise instructions, visuals, and related information to help you stay fit and motivated.
 
-## Screenshots
+---
+
+## 🌟 About the Project
+
+The Fitness App is designed to make fitness accessible and engaging for everyone. Key features include:
+
+- **Search by Body Part**: Explore exercises based on specific body parts like arms, legs, chest, and more.
+- **Search by Name**: Quickly find exercises by typing their names in the search bar.
+- **Detailed Exercise Information**: View exercise instructions, target muscles, and equipment required.
+- **Visual Guidance**: Each exercise comes with an animated GIF to demonstrate proper form.
+- **Responsive Design**: The app is fully responsive and works seamlessly on all devices.
+
+This app is perfect for fitness enthusiasts, beginners, and anyone looking to improve their health and well-being.
+
+---
+
+## 📸 Screenshots
 
 ### Home Page
 ![Home Page](./public/ss/home-1.png)
@@ -16,7 +32,7 @@ Describe the app's purpose and features here.
 
 ## Deployed Link
 
-Check out the live app [here](#).
+Check out the live app [here](https://fitttr.netlify.app/).
 
 ## How to Run Locally
 
@@ -24,11 +40,11 @@ To run the app locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/Madhav243/fitness-app.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd your-repo-name
+   cd fitness-app
    ```
 3. Install dependencies:
    ```sh
