@@ -5,4 +5,6 @@ export interface IExerciseData {
   id: string;
   name: string;
   target: string;
+  secondaryMuscles : string[];
+  instructions : string[]
 }

@@ -1,10 +1,11 @@
 import { AxiosResponse, AxiosResponseHeaders, InternalAxiosRequestConfig } from "axios";
 import http from "../../utils/exercises-http";
 import { IExerciseData } from "../modals/exercise";
+import { bodyPartList, exercises } from "../constants/exercises";
 
-let allExercises : IExerciseData[] = []
+let allExercises : IExerciseData[] = exercises
 
-let allBodyParts : Array<string> = [];
+let allBodyParts : Array<string> = bodyPartList;
 
 
 const getAxiosResponseObj = (data : any) : AxiosResponse => {
