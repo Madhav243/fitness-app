@@ -1,6 +1,40 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the Project
+
+Describe the app's purpose and features here.
+
+## Screenshots
+
+### Home Page
+![Home Page](./path-to-screenshot/home-page.png)
+
+### Exercise Page
+![Exercise Page](./path-to-screenshot/exercise-page.png)
+
+## Deployed Link
+
+Check out the live app [here](#).
+
+## How to Run Locally
+
+To run the app locally, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo-url.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd your-repo-name
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
 ## Available Scripts
 
