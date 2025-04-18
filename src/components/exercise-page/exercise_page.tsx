@@ -22,10 +22,6 @@ const ExercisePage = () => {
     const exerciseDetailData = {...exerciseResponse.data} as IExerciseData
     setExerciseDetail(exerciseDetailData);
 
-    const youtubeResponse = await YoutubeService.searchExerciseOnYoutube(exerciseDetailData.name);
-    const youtubeData = {...youtubeResponse.data} as IYoutubeSearch
-    setExerciseVideos(youtubeData.contents);
-
     const targetMuscleExercisesResponse = await ExerciseService.getExercisesByTargetMuscle(exerciseDetailData.target)
     const targetMuscleExercisesData = [...targetMuscleExercisesResponse.data] as IExerciseData[]
     setTargetMuscleExercises(targetMuscleExercisesData);
@@ -33,6 +29,12 @@ const ExercisePage = () => {
     const equimentExercisesResponse = await ExerciseService.getExercisesByEquipment(exerciseDetailData.equipment);
     const equimentExercisesData = [...equimentExercisesResponse.data] as IExerciseData[]
     setEquipmentExercises(equimentExercisesData);
+
+    const youtubeResponse = await YoutubeService.searchExerciseOnYoutube(exerciseDetailData.name);
+    const youtubeData = {...youtubeResponse.data} as IYoutubeSearch
+    setExerciseVideos(youtubeData.contents);
+
+    
 
   }
 
