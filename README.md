@@ -3,6 +3,8 @@
 
 The **Fitness App** is your ultimate companion for discovering exercises tailored to your fitness goals. Whether you're looking to target specific body parts or searching for exercises by name, this app has you covered. With a sleek and user-friendly interface, the app provides detailed exercise instructions, visuals, and related information to help you stay fit and motivated.
 
+Credits : JavaScript Mastery [here](https://youtu.be/KBpoBc98BwM?si=kEqt4_-kRmdb5ATi)
+
 ---
 
 ## 🌟 About the Project
